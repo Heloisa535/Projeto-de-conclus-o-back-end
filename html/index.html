@@ -15,19 +15,33 @@
         <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
     </header>
     <nav class="menu">
-        <h1>Exclusive</h1>
+        <a href="index.html"><h1>Exclusive</h1></a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="https://chat.whatsapp.com/L6aeRiY2BTd3GWNkRT33I5">Contact</a></li>
-            <li><a href="about.html">About</a></li>
+          
             <li><a href="cadastro.html">Sign Up</a></li>
             <li><a href="vendedorLogin.html">seller's area</a></li>
         </ul>
         <div class="search-bar">
-            <input type="text" placeholder="Pesquisar...">
-            <button id="lupa" type="submit"><img src="/img/Component 2.png" alt="Search icon"></button> 
-            <a href="favoritos.html"><button id="carrinho" type="submit"><img src="/img/Design_sem_nome__3_-removebg-preview.png" alt="Search icon"></button></a>
-           <a href="carrinho.html"><button id="carrinho" type="submit"><img src="/img/Design_sem_nome__4_-removebg-preview.png" alt="Search icon"></button></a> 
+            <div class="container1">
+                <h1> <br> </h1>
+                <div class="search-container">
+                  
+                    <input type="text" id="searchInput" placeholder="What are you looking for?">
+                    <button onclick="search()"><img src="/img/Component 2.svg" alt=""></button>
+                  </div>
+                  
+                  <div id="searchResults">
+                    <!-- Os resultados da pesquisa serão exibidos aqui -->
+                  </div>
+                  
+                  <a href="/html/favoritos.html"><button id="carrinho" type="submit"><img src="/img/Design_sem_nome__3_-removebg-preview.png" alt="Search icon"></button></a>
+                  <a href="/html/carrinho.html"><button id="carrinho" type="submit"><img src= "/img/Design_sem_nome__4_-removebg-preview.png" alt="Search icon"></button></a> 
+                  
+              </div>
+             
+          
            
         </div>
   
@@ -36,20 +50,20 @@
     <hr>
     <div id="sidebar">
         <ul>
-          <li><a href="eletronico.html">Eletrônicos</a></li>
+          <li><a href="eletronico.html">Eletronics</a></li>
           <br>
-          <li><a href="livro.html">Livros</a></li>
+          <li><a href="livro.html">Books</a></li>
           <br>
-          <li><a href="casa.html">Casa e jardim</a></li>
+          <li><a href="casa.html">House & Garden</a></li>
           <br>
-          <li><a href="roupas.html">Roupas</a></li>
+          <li><a href="roupas.html">Clothes</a></li>
           <br>
-          <li><a href="beleza.html">Beleza</a></li>
+          <li><a href="beleza.html">Beauty</a></li>
         </ul>
       </div>
       <img id="line" src="/img/Line 4.svg" alt="">
 
-     <div> <img id="side-img" src="/img/iphone.svg" alt=""></div>
+     <a href="iphone.html"><div> <img id="side-img" src="/img/iphone.svg" alt=""></div></a>
      <div class="shop1"> <a href="iphone.html"><h3>Shop Now</h3></a> </div>
 
 
@@ -386,5 +400,7 @@
                          <p>@Copright Rime 2024</p>
                      </div>
                     
+                     <script src="/js/script1.js"></script>
+
                     </body>
                     </html>
