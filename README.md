@@ -65,4 +65,4 @@ Clique em "Salvar" para publicar o produto na plataforma.
 
 Suporte ao Cliente
 Chat ao Vivo: Disponível para assistência imediata.
-Email: exclusive@gmail.com.br
+Email: atendimentoclienteexclusive@gmail.com
